@@ -11,10 +11,11 @@
   },
   "dependencies": {
     "antd": "^2.13.1",
-    "babel-plugin-import": "^1.4.0",
     "babel-runtime": "^6.9.2",
-    "dva": "^1.2.1",
+    "dva": "^2.0.0-0",
     "dva-loading": "^1.0.0",
+    "history": "^4.7.2",
+    "query-string": "^5.0.0",
     "react": "^15.4.0",
     "react-dom": "^15.4.0"
   },
