@@ -2225,6 +2225,12 @@ duplexer@^0.1.1:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/duplexer/-/duplexer-0.1.1.tgz#ace6ff808c1ce66b57d1ebf97977acb02334cfc1"
 
+dva-loading@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/dva-loading/-/dva-loading-1.0.0.tgz#813765d31906ad02974fe379c5f066840b683b38"
+  dependencies:
+    babel-runtime "^6.26.0"
+
 dva@^1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/dva/-/dva-1.2.1.tgz#b9e78a4f1812b2230134d1bb7baadd1af3630138"
