@@ -23,9 +23,6 @@ function MainLayout({ children, location }) {
           <Menu.Item key="/">
             <Link to="/"><Icon type="home" />Messaging Platform</Link>
           </Menu.Item>
-          <Menu.Item key="/users">
-            <Link to="/users"><Icon type="bars" />Users</Link>
-          </Menu.Item>
           <SubMenu key="/cms" title={<span><Icon type="shop" /><span>CMS</span></span>}>
             <Menu.Item key="/campaigns">Campaigns</Menu.Item>
             <Menu.Item key="/audience_segments">Audience Segments</Menu.Item>
