@@ -26,10 +26,20 @@ function MainLayout({ children, location }) {
           <Menu.Item key="/users">
             <Link to="/users"><Icon type="bars" />Users</Link>
           </Menu.Item>
-          <SubMenu key="/cms" title={<span><Icon type="appstore" /><span>CMS</span></span>}>
+          <SubMenu key="/cms" title={<span><Icon type="shop" /><span>CMS</span></span>}>
             <Menu.Item key="/campaigns">Campaigns</Menu.Item>
             <Menu.Item key="/audience_segments">Audience Segments</Menu.Item>
           </SubMenu>
+          <SubMenu key="/testing" title={<span><Icon type="exception" /><span>Testing</span></span>}>
+            <Menu.Item key="/campaigns">Test Direct Notification</Menu.Item>
+            <Menu.Item key="/audience_segments">Test Campaign</Menu.Item>
+          </SubMenu>
+          <Menu.Item key="/troubleshooting">
+            <Link to="/users"><Icon type="tool" />Troubleshooting</Link>
+          </Menu.Item>
+          <Menu.Item key="/reproting">
+            <Link to="/users"><Icon type="area-chart" />Reporting</Link>
+          </Menu.Item>
         </Menu>
       </Header>
       <Content>
