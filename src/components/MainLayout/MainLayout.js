@@ -18,7 +18,7 @@ function MainLayout({ children, location }) {
           selectedKeys={[location.pathname]}
           mode="horizontal"
           theme="dark"
-          style={{ lineHeight: '64px' }}
+          style={{ lineHeight: '64px', float: 'left' }}
         >
           <Menu.Item key="/">
             <Link to="/"><Icon type="home" />Messaging Platform</Link>
@@ -37,9 +37,17 @@ function MainLayout({ children, location }) {
           <Menu.Item key="/troubleshooting">
             <Link to="/users"><Icon type="tool" />Troubleshooting</Link>
           </Menu.Item>
-          <Menu.Item key="/reproting">
+          <Menu.Item key="/reproting" style={{ floating: 'right' }}>
             <Link to="/users"><Icon type="area-chart" />Reporting</Link>
           </Menu.Item>
+        </Menu>
+        <Menu
+          selectedKeys={[location.pathname]}
+          mode="horizontal"
+          theme="dark"
+          style={{ lineHeight: '64px', float: 'right' }}
+        >
+          <SubMenu key="/cms" title={<span><Icon type="user" /><span>Mingkui Liu</span></span>} />
         </Menu>
       </Header>
       <Content>
