@@ -27,7 +27,7 @@ function MainLayout({ children, location }) {
             <Menu.Item key="/campaigns">Campaigns</Menu.Item>
             <Menu.Item key="/audience_segments">Audience Segments</Menu.Item>
           </SubMenu>
-          <SubMenu key="/testing" title={<span><Icon type="exception" /><span>Testing</span></span>}>
+          <SubMenu key="/testing" title={<span><Icon type="api" /><span>Testing</span></span>}>
             <Menu.Item key="/campaigns">Test Direct Notification</Menu.Item>
             <Menu.Item key="/audience_segments">Test Campaign</Menu.Item>
           </SubMenu>
